@@ -1,0 +1,8 @@
+info,Commodity Prices. Crude Oil (Petroleum). UK Dated Brent
+Unit,Index. 2010=100
+Data Source,International Financial Statistics (IFS)
+URL,http://data.imf.org/?sk=4C514D48-B6BA-49ED-8AB9-52B0C1A0179B&sId=1390030341854
+Scale,Units
+Start date,1992 Jan
+End date,2015 May
+Alias,oil_price

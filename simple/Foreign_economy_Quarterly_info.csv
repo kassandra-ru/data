@@ -1,0 +1,11 @@
+info,Foreign CPI inflation is weighted,Foreign interest rate is weighted ,real GDP is weighted
+Unit,Index 2005=1,Percent per annum ,Index 2005=1
+Data Source,,,
+URL,,,
+Frequency,,,
+Status,,,
+Start date,1999 Q1,1999 Q1,1999 Q1
+End date,,,
+Facts,Pif=(Peu/Peu(-1))^0.45*(Pus/Pus(-1))^0.55,if=if1*0.45+if2*0.55,Yf=Yf1^0.45*Yf2^0.55
+Alias,Pif,if,Yf
+Scale,units,units,Units

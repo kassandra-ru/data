@@ -1,0 +1,11 @@
+info,Exchange rate ,"Consumer Prices, All items","GDP, real, SA",Money Market Interest rate (=Effective federal funds rate)
+Unit,Roubles per US Dollar,"Index, 2010=100","Index, 2010=100",Percent per Annum
+Data Source,International Financial Statistics (IFS),International Financial Statistics (IFS),International Financial Statistics (IFS),International Financial Statistics (IFS)
+URL,http://data.imf.org/?sk=4C514D48-B6BA-49ED-8AB9-52B0C1A0179B&sId=1390030341854,http://data.imf.org/?sk=4C514D48-B6BA-49ED-8AB9-52B0C1A0179B&sId=1390030341854,,http://data.imf.org/?sk=4C514D48-B6BA-49ED-8AB9-52B0C1A0179B&sId=1390030341854
+Frequency,Quarterly,Quarterly,Quarterly,Quarterly
+Status,Published,Published,Published,Published
+Start date,1998Q1,1998Q1,1999 Q1,1998Q1
+End date,2018 Q2,2018 Q2,2016 Q1,2017 Q2
+Facts,Core Data,Core Data,,
+Alias,S1,Pus,Yf2,if2
+Scale,Units,Units,Units,Units

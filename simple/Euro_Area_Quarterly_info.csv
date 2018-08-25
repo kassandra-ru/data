@@ -1,0 +1,11 @@
+info,"Consumer Prices, Harmonized",Exchange Rate,Money Market Interest rate,"GDP, real, SA"
+Unit,"Index, 2005=100",Roubles per Euro,Percent per Annum,Index 2010=100
+Data Source,International Financial Statistics (IFS),ECB,International Financial Statistics (IFS),International Financial Statistics (IFS)
+URL,http://data.imf.org/?sk=4C514D48-B6BA-49ED-8AB9-52B0C1A0179B&sId=1390030341854,,,
+Frequency,Quarterly,Quarterly,Quarterly,Quarterly
+Status,Published,Publlished,Published,Published
+Start date,1998Q1,1999 Q1,1999 Q1,1999 Q1
+End date,2018 Q2,2016 Q1,2016 Q1,2016 Q1
+Facts,Core Data,Core Data,,
+Alias,Peu,S2,if1,Yf1
+Scale,Units,Units,Units,Units
