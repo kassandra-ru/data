@@ -1,0 +1,7 @@
+library(rio)
+library(tidyverse)
+library(lubridate)
+gdp <- import("../main/gdp.csv", format = ";", dec = ",")
+gdp <- mutate(gdp, date = yq(date), access_date = dmy(access_date))
+glimpse(gdp)
+export(gdp, "../main/gdp.csv")

@@ -1,0 +1,6 @@
+library(rio)
+library(tidyverse)
+library(lubridate)
+gdp <- import("../main/gdp.csv")
+gdp <- group_by(gdp, date) %>% filter(access_date == max(access_date))
+export(gdp, "../simple/gdp.csv")
