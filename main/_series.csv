@@ -1,0 +1,3 @@
+short_name, long_name, long_name_alt, file_name, unit, scale, frequency, script, start_date, end_date, comment
+gdp, "Gross domestic product", "Валовый национальный продукт", gdp.csv, NA, NA, quarterly, manual, NA, NA, NA
+cpi, "Cpi inflation chain index", "Инфляция", cpi_inflation.csv, NA, NA, monthly, cpi_inflation.R, NA, NA, NA
