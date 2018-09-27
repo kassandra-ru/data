@@ -31,4 +31,10 @@ http://www.gks.ru/free_doc/new_site/prices/potr/tab-potr1.htm
 Возможно, имеет смысл скачивать Краткосрочные показатели по следующей ссылке: 
 http://www.gks.ru/wps/wcm/connect/rosstat_main/rosstat/ru/statistics/publications/catalog/doc_1140080765391
 
+Таблицы по дефляторам ввп:
+http://www.gks.ru/free_doc/new_site/vvp/kv/tab9.htm
 
+* Посчитать хэш-сумму md5:
+```r
+digest::digest(file = "___")
+```
