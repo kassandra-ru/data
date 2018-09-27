@@ -1,5 +1,6 @@
 url, hash, file, last_download, last_access, next_access, comment
-http://www.gks.ru/free_doc/new_site/prices/potr/I_ipc.xlsx, 4868b3546983e988dd16d19301b75828, I_ipc.xlsx, 2018-08-30, 2018-08-30, 2018-09-06, "Chained CPI from Russian Statistical Agency, monthly"
+http://www.gks.ru/free_doc/new_site/prices/potr/I_ipc.xlsx, 4868b3546983e988dd16d19301b75828, I_ipc.xlsx, 2018-08-30, 2018-08-30, 2018-09-06, Monthly chained CPI from Russian Statistical Agency
 http://www.gks.ru/free_doc/new_site/vvp/kv/tab5a.xls, 2ad86ae679a1f87fdd31f8010158bb53, tab5a.xls, 2018-08-31, 2018-08-31, 2018-09-07, Gross domestic product quarterly current prices
 http://www.gks.ru/free_doc/new_site/vvp/kv/tab9a.xls, 21d0e2d17a333bebbf033b1dedc91132, tab9a.xls, 2018-09-27, 2018-09-27, 2018-10-10, Deflator index in percent to the previous quarter
 http://www.gks.ru/free_doc/new_site/vvp/kv/tab9.xls, 77b735f84e1b848187c18c36d45b2a7a, tab9.xls, 2018-09-27, 2018-09-27, 2018-10-10, Deflator index in percent to the previous quarter early data
+http://www.gks.ru/free_doc/new_site/vvp/kv/tab6b.xls, 47769dae038c6631d5bcbf4a93604f9f, tab6b.xls, 2018-09-27, 2018-09-27, 2018-10-10, Gross domestic product quarterly 2016 prices
