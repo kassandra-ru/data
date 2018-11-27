@@ -43,6 +43,7 @@ for (file_no in 1:nrow(watchdog)) {
 }
 new_watchdog  
 
+write_csv(new_watchdog, path = "../raw/watchdog.csv")
 
   
 
