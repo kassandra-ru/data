@@ -6,7 +6,7 @@ Sys.setlocale("LC_TIME","C")
 url = "http://www.gks.ru/free_doc/new_site/prices/potr/I_ipc.xlsx"
 # ипц месячный
 
-source("../../kassandr/R/functions.R")
+source("../../kassandr/R/watchdog.R")
 
 I_ipc_xls_convert = function(path_to_source, access_date) {
   data = import(last_version_path)
