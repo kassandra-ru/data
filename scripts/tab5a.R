@@ -6,7 +6,7 @@ Sys.setlocale("LC_TIME","C")
 url = "http://www.gks.ru/free_doc/new_site/vvp/kv/tab5a.xls"
 # Индексы - дефляторы валового внутреннего продукта в процентах к аналогичному периоду прошлого года
 
-source("../../kassandr/R/functions.R")
+library(kassandr)
 
 tab5a_xls_convert = function(path_to_source, access_date) {
   data = import(last_version_path)
