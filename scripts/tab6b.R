@@ -6,7 +6,7 @@ Sys.setlocale("LC_TIME","C")
 url = "http://www.gks.ru/free_doc/new_site/vvp/kv/tab6b.xls"
 # квартальный ввп в ценах 2016 в млрд рублей
 
-source("../../kassandr/R/functions.R")
+library(kassandr)
 
 tab6b_xls_convert = function(path_to_source, access_date) {
   data = import(last_version_path)
