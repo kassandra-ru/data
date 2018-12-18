@@ -18,7 +18,7 @@ for (file_no in 1:nrow(watchdog)) {
   filename = watchdog$file[file_no]
   
   tempfile = tempfile()
-  attempt = try(download.file(url = url, destfile = tempfile))
+  attempt = try(download.file(url = url, destfile = tempfile, method = "curl"))
   new_watchdog$last_access[file_no] = today
   
   if (class(attempt) == "try-error") {
