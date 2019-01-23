@@ -8,17 +8,6 @@ url = "http://www.gks.ru/free_doc/new_site/vvp/kv/tab5a.xls"
 
 library(kassandr)
 
-tab5a_xls_convert = function(path_to_source, access_date) {
-  data = import(last_version_path)
-  
-  data_vector <- t(data[5, ]) %>% na.omit() %>% as.numeric()
-
-  data_ts <- ts(data_vector, start = c(2011, 1), freq = 4)
-  data_tsibble <- as_tsibble(data_ts) %>% rename(date = index)
-
-  data_tsibble = mutate(data_tsibble, access_date = access_date)
-  return(data_tsibble)
-}
 
 watchdog = import("../raw/watchdog.csv")
 

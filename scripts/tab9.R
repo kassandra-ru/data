@@ -8,18 +8,6 @@ url = "http://www.gks.ru/free_doc/new_site/vvp/kv/tab9.xls"
 
 source("../../kassandr/R/functions.R")
 
-tab9_xls_convert = function(path_to_source, access_date) {
-  data = import(last_version_path)
-  
-
-  data_vector <- t(data[4, ]) %>% na.omit() %>% as.numeric()
-  
-  gdp_deflator <- ts(data_vector, start = c(1996, 1), freq = 4)
-  gdp_deflator <- as_tsibble(gdp_deflator) %>% rename(date = index)
-  
-  data_tsibble = mutate(gdp_deflator, access_date = access_date)
-  return(data_tsibble)
-}
 
 watchdog = import("../raw/watchdog.csv")
 
