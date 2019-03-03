@@ -1,0 +1,7 @@
+url,file_raw,file_main,processing,univariate,frequency,comment,access_date,download_status,processing_status,hash_raw,hash_main
+http://www.gks.ru/free_doc/new_site/prices/potr/I_ipc.xlsx,i_ipc.xlsx,i_ipc.csv,convert_i_ipc_xlsx,TRUE,12,Monthly chained CPI from Russian Statistical Agency,2019-03-03,success,success,77bc3a6679d23070a9765350f4a61c1a,064097c6050ff3a8bbd92b0fb6ca1c53
+http://www.gks.ru/free_doc/new_site/vvp/kv/tab5a.xls,tab5a.xls,tab5a.csv,convert_tab5a_xls,TRUE,4,Gross domestic product quarterly current prices,2019-03-03,success,success,29bc53967e96dd5bab538ec91e196e13,1729e5a9cb4745a0c209ccd1335f9404
+http://www.gks.ru/free_doc/new_site/vvp/kv/tab9a.xls,tab9a.xls,tab9a.csv,convert_tab9a_xls,TRUE,4,Deflator index in percent to the previous quarter,2019-03-03,success,success,bc487608c069e565d9a2737c16ee872c,e20d4a7cfd8d8b452d36fca65c8f601e
+http://www.gks.ru/free_doc/new_site/vvp/kv/tab9.xls,tab9.xls,tab9.csv,convert_tab9_xls,TRUE,4,Deflator index in percent to the previous quarter early data,2019-03-03,success,success,77b735f84e1b848187c18c36d45b2a7a,b6b34560c5856d68bc722913a59aae73
+http://www.gks.ru/free_doc/new_site/vvp/kv/tab6b.xls,tab6b.xls,tab6b.csv,convert_tab6b_xls,TRUE,4,Gross domestic product quarterly 2016 prices,2019-03-03,success,success,a508aeba2bc79065e53032f9adc74e70,cc5e99dd6d716a6d26419a4c3ab3a893
+,,lendrate.csv,parse_lendrate,NO,12,Monthly lending rate multiple duration periods,2019-03-03,,success,,a21e492de515b79fb35f8fe62dfb5d25
