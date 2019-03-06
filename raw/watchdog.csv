@@ -10,7 +10,7 @@ http://www.gks.ru/bgd/regl/b18_02/IssWWW.exe/Stg/d010/1-08.doc,1-08.doc,1-08.csv
 http://www.gks.ru/bgd/regl/b18_02/IssWWW.exe/Stg/d010/1-03.doc,1-03.doc,1-03.csv,convert_1_nn_doc,TRUE,12,Construction
 http://www.gks.ru/bgd/regl/b18_02/IssWWW.exe/Stg/d010/1-11.doc,1-11.doc,1-11.csv,convert_1_nn_doc,TRUE,12,Budget
 http://www.cbr.ru/vfs/statistics/credit_statistics/M2-M2_SA.xlsx,m2-m2_sa.xlsx,m2-m2_sa.csv,convert_m2_m2_sa_xlsx,TRUE,12,Seasonally adjusted M2
-NA,NA,reserverate.csv,parse_reserverate,FALSE,12,Reserve rate from cbr
+NA,NA,reserves.csv,parse_reserves,FALSE,12,Reserves data from cbr
 NA,NA,exchangerate.csv,parse_exchangerate,TRUE,NA,Exchange rate from cbr 
 http://www.gks.ru/free_doc/new_site/business/prom/ind_okved2.xlsx,ind_okved2.xlsx,ind_okved2.csv,convert_ind_okved2_xlsx,FALSE,NA,Industrial production index
 https://www.cbr.ru/vfs/statistics/credit_statistics/trade/trade.xls,trade.xls,trade.csv,convert_trade_xls,FALSE,12,Trade statistics
