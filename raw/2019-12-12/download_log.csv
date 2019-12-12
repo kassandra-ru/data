@@ -1,0 +1,61 @@
+url,file_raw,file_main,processing,univariate,frequency,comment,access_date,download_status,processing_status,hash_raw,hash_main,access_status
+http://www.gks.ru/free_doc/new_site/prices/potr/I_ipc.xlsx,i_ipc.xlsx,i_ipc.csv,convert_i_ipc_xlsx,TRUE,12,Monthly chained CPI from Russian Statistical Agency,2019-12-12,,"Error in rio::import(path_to_source) : No such file
+",,,"Error in utils::download.file(url = url, destfile = file_raw, method = method,  : 
+  'curl' call had nonzero exit status
+"
+http://www.gks.ru/free_doc/new_site/vvp/kv/tab5a.xls,tab5a.xls,tab5a.csv,convert_tab5a_xls,TRUE,4,Gross domestic product quarterly current prices,2019-12-12,,"Error in rio::import(path_to_source) : No such file
+",,,"Error in utils::download.file(url = url, destfile = file_raw, method = method,  : 
+  'curl' call had nonzero exit status
+"
+http://www.gks.ru/free_doc/new_site/vvp/kv/tab9a.xls,tab9a.xls,tab9a.csv,convert_tab9a_xls,TRUE,4,Deflator index in percent to the previous quarter,2019-12-12,,"Error in rio::import(path_to_source) : No such file
+",,,"Error in utils::download.file(url = url, destfile = file_raw, method = method,  : 
+  'curl' call had nonzero exit status
+"
+http://www.gks.ru/free_doc/new_site/vvp/kv/tab9.xls,tab9.xls,tab9.csv,convert_tab9_xls,TRUE,4,Deflator index in percent to the previous quarter early data,2019-12-12,,"Error in rio::import(path_to_source) : No such file
+",,,"Error in utils::download.file(url = url, destfile = file_raw, method = method,  : 
+  'curl' call had nonzero exit status
+"
+http://www.gks.ru/free_doc/new_site/vvp/kv/tab6b.xls,tab6b.xls,tab6b.csv,convert_tab6b_xls,TRUE,4,Gross domestic product quarterly 2016 prices,2019-12-12,,"Error in rio::import(path_to_source) : No such file
+",,,"Error in utils::download.file(url = url, destfile = file_raw, method = method,  : 
+  'curl' call had nonzero exit status
+"
+http://www.cbr.ru/hd_base/mkr/mkr_monthes/,lendrate.html,lendrate.csv,convert_lendrate,FALSE,12,Monthly lending rate multiple duration periods,2019-12-12,,"Error : 'D:/Research/Kassandra/data/raw/2019-12-12/lendrate.html' does not exist.
+",,,"Error in utils::download.file(url = url, destfile = file_raw, method = method,  : 
+  'curl' call had nonzero exit status
+"
+http://www.gks.ru/free_doc/new_site/population/urov/urov_12kv.doc,urov_12kv.doc,urov_12kv.csv,convert_urov_12kv_doc,FALSE,12,Real disposable income percentage to previous period and to same month of previous year,2019-12-12,,"Error : Cannot find 'D:/Research/Kassandra/data/raw/2019-12-12/urov_12kv.doc'
+",,,"Error in utils::download.file(url = url, destfile = file_raw, method = method,  : 
+  'curl' call had nonzero exit status
+"
+http://www.gks.ru/bgd/regl/b18_02/IssWWW.exe/Stg/d010/1-08.doc,1-08.doc,1-08.csv,convert_1_nn_doc,TRUE,12,Agricultural index,2019-12-12,,"Error : Cannot find 'D:/Research/Kassandra/data/raw/2019-12-12/1-08.doc'
+",,,"Error in utils::download.file(url = url, destfile = file_raw, method = method,  : 
+  'curl' call had nonzero exit status
+"
+http://www.gks.ru/bgd/regl/b18_02/IssWWW.exe/Stg/d010/1-03.doc,1-03.doc,1-03.csv,convert_1_nn_doc,TRUE,12,Construction,2019-12-12,,"Error : Cannot find 'D:/Research/Kassandra/data/raw/2019-12-12/1-03.doc'
+",,,"Error in utils::download.file(url = url, destfile = file_raw, method = method,  : 
+  'curl' call had nonzero exit status
+"
+http://www.gks.ru/bgd/regl/b18_02/IssWWW.exe/Stg/d010/1-11.doc,1-11.doc,1-11.csv,convert_1_nn_doc,TRUE,12,Budget,2019-12-12,,"Error : Cannot find 'D:/Research/Kassandra/data/raw/2019-12-12/1-11.doc'
+",,,"Error in utils::download.file(url = url, destfile = file_raw, method = method,  : 
+  'curl' call had nonzero exit status
+"
+http://www.cbr.ru/vfs/statistics/credit_statistics/M2-M2_SA.xlsx,m2-m2_sa.xlsx,m2-m2_sa.csv,convert_m2_m2_sa_xlsx,TRUE,12,Seasonally adjusted M2,2019-12-12,,"Error in rio::import(path_to_source) : No such file
+",,,"Error in utils::download.file(url = url, destfile = file_raw, method = method,  : 
+  'curl' call had nonzero exit status
+"
+http://www.cbr.ru/hd_base/mrrf/mrrf_m/,reserves.html,reserves.csv,convert_reserves,FALSE,12,Reserves data from cbr,2019-12-12,,"Error : 'D:/Research/Kassandra/data/raw/2019-12-12/reserves.html' does not exist.
+",,,"Error in utils::download.file(url = url, destfile = file_raw, method = method,  : 
+  'curl' call had nonzero exit status
+"
+http://www.gks.ru/storage/mediabank/ind_okved2(1).xlsx,ind_okved2.xlsx,ind_okved2.csv,convert_ind_okved2_xlsx,FALSE,,Industrial production index,2019-12-12,,"Error in rio::import(path_to_source, skip = 2, sheet = 1) : No such file
+",,,"Error in utils::download.file(url = url, destfile = file_raw, method = method,  : 
+  'curl' call had nonzero exit status
+"
+https://www.cbr.ru/vfs/statistics/credit_statistics/trade/trade.xls,trade.xls,trade.csv,convert_trade_xls,FALSE,12,Trade statistics,2019-12-12,,"Error in rio::import(path_to_source) : No such file
+",,,"Error in utils::download.file(url = url, destfile = file_raw, method = method,  : 
+  'curl' call had nonzero exit status
+"
+http://www.gks.ru/bgd/regl/b19_02/IssWWW.exe/Stg/d010/1-06-0.xlsx,1-06-0.xlsx,invest.csv,convert_1_06_0_xlsx,TRUE,4,Fixed capital investment,2019-12-12,,"Error in rio::import(path_to_source) : No such file
+",,,"Error in utils::download.file(url = url, destfile = file_raw, method = method,  : 
+  'curl' call had nonzero exit status
+"
