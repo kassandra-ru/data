@@ -1,0 +1,21 @@
+url,file_raw,file_main,processing,univariate,frequency,comment,access_date,download_status,processing_status,hash_raw,hash_main
+http://www.gks.ru/free_doc/new_site/prices/potr/I_ipc.xlsx,i_ipc.xlsx,i_ipc.csv,convert_i_ipc_xlsx,TRUE,12,Monthly chained CPI from Russian Statistical Agency,2020-03-18,success,success,ec4ae97adedb38967bad15c60e72a1df,7afe0e548cb648bceb2148aae49d32cd
+http://www.gks.ru/free_doc/new_site/vvp/kv/tab5a.xls,tab5a.xls,tab5a.csv,convert_tab5a_xls,TRUE,4,Gross domestic product quarterly current prices,2020-03-18,success,success,f02a180f672115a9d130966b316b4896,6f16031fa79d6a32de58cf713df2870e
+http://www.gks.ru/free_doc/new_site/vvp/kv/tab9a.xls,tab9a.xls,tab9a.csv,convert_tab9a_xls,TRUE,4,Deflator index in percent to the previous quarter,2020-03-18,success,success,27a32502e9090606b7df800353a16a24,6dd568cf29db457b65b03940737fc984
+http://www.gks.ru/free_doc/new_site/vvp/kv/tab9.xls,tab9.xls,tab9.csv,convert_tab9_xls,TRUE,4,Deflator index in percent to the previous quarter early data,2020-03-18,success,success,77b735f84e1b848187c18c36d45b2a7a,87646e0e1471939da61515f9db9170d7
+http://www.gks.ru/free_doc/new_site/vvp/kv/tab6b.xls,tab6b.xls,tab6b.csv,convert_tab6b_xls,TRUE,4,Gross domestic product quarterly 2016 prices,2020-03-18,success,success,0d9dcac18eb51d50a975c290608e8233,9f91cea956e61ac9ff44c3a0a7098b8a
+http://www.cbr.ru/hd_base/mkr/mkr_monthes/,lendrate.html,lendrate.csv,convert_lendrate,FALSE,12,Monthly lending rate multiple duration periods,2020-03-18,success,"Error in lendrate[[1]] : подгруппа выходит за пределы
+",153e2b5dab87b8a0c66d6bce12e82043,
+http://www.gks.ru/free_doc/new_site/population/urov/urov_12kv.doc,urov_12kv.doc,urov_12kv.csv,convert_urov_12kv_doc,FALSE,12,Real disposable income percentage to previous period and to same month of previous year,2020-03-18,success,success,8ffc6cc247d1106e64e3d6a3671d8c87,55fc444b9dc412c00e05e4f5ed92ff4a
+http://www.gks.ru/bgd/regl/b18_02/IssWWW.exe/Stg/d010/1-08.doc,1-08.doc,1-08.csv,convert_1_nn_doc,TRUE,12,Agricultural index,2020-03-18,success,success,603bfcc199bffafbe0269afa0524449b,37eb356e1f024a54e12515c61bab1421
+http://www.gks.ru/bgd/regl/b18_02/IssWWW.exe/Stg/d010/1-03.doc,1-03.doc,1-03.csv,convert_1_nn_doc,TRUE,12,Construction,2020-03-18,success,success,79f38760795ceb8ede4e0e69eca6c508,1ebc2dd5305012c1c53fdf6680a5062d
+http://www.gks.ru/bgd/regl/b18_02/IssWWW.exe/Stg/d010/1-11.doc,1-11.doc,1-11.csv,convert_1_nn_doc,TRUE,12,Budget,2020-03-18,success,success,eed1162ebe3fa98840e42b8e7da35db5,8387b881489eeda3fda3f5c20835382b
+http://www.cbr.ru/vfs/statistics/credit_statistics/M2-M2_SA.xlsx,m2-m2_sa.xlsx,m2-m2_sa.csv,convert_m2_m2_sa_xlsx,TRUE,12,Seasonally adjusted M2,2020-03-18,success,success,a3a4ca02ddd9c35daa2a4abc9bb9ecc5,c7d87a43ed530e6d51a8156010f2a9ba
+http://www.cbr.ru/hd_base/mrrf/mrrf_m/,reserves.html,reserves.csv,convert_reserves,FALSE,12,Reserves data from cbr,2020-03-18,success,"Error in nfa_cb[[1]] : подгруппа выходит за пределы
+",7483a8f44abc9375bf3dd7bbaf9eb0dd,
+http://www.gks.ru/storage/mediabank/ind_okved2(1).xlsx,ind_okved2.xlsx,ind_okved2.csv,convert_ind_okved2_xlsx,FALSE,,Industrial production index,2020-03-18,success,success,c8d103cd2c21879fc139daef90761d33,5a872d90676501c1769d10fde473fbca
+https://www.cbr.ru/vfs/statistics/credit_statistics/trade/trade.xls,trade.xls,trade.csv,convert_trade_xls,FALSE,12,Trade statistics,2020-03-18,success,"Error : The `gather` argument of `as_tsibble()` is deprecated as of tsibble 0.8.0.
+Please use the `pivot_longer` argument instead.
+",59f8063e7a572ad7cab53bc6dd5d11c4,
+http://www.gks.ru/bgd/regl/b19_02/IssWWW.exe/Stg/d010/1-06-0.xlsx,1-06-0.xlsx,invest.csv,convert_1_06_0_xlsx,TRUE,4,Fixed capital investment,2020-03-18,success,success,eddd224c512c50f46ca6e10a0eee68af,936e2e8ae1e5e175e98bb56ea44626f6
+,,exchangerate.csv,parse_exchangerate,TRUE,,Exchange rate from cbr,2020-03-18,,success,,cf869855dfe2ea840d59a56e4b737e86
