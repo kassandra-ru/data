@@ -1,5 +1,5 @@
 url,file_raw,file_main,processing,univariate,frequency,comment
-http://www.rosstat.gov.ru/storage/mediabank/jRjVxbDx/i_ipc.xlsx,i_ipc.csv,convert_i_ipc_xlsx,TRUE,12,Monthly chained CPI from Russian Statistical Agency
+http://www.gks.ru/free_doc/new_site/prices/potr/I_ipc.xlsx,i_ipc.xlsx,i_ipc.csv,convert_i_ipc_xlsx,TRUE,12,Monthly chained CPI from Russian Statistical Agency
 http://www.gks.ru/free_doc/new_site/vvp/kv/tab5a.xls,tab5a.xls,tab5a.csv,convert_tab5a_xls,TRUE,4,Gross domestic product quarterly current prices
 http://www.gks.ru/free_doc/new_site/vvp/kv/tab9a.xls,tab9a.xls,tab9a.csv,convert_tab9a_xls,TRUE,4,Deflator index in percent to the previous quarter
 http://www.gks.ru/free_doc/new_site/vvp/kv/tab9.xls,tab9.xls,tab9.csv,convert_tab9_xls,TRUE,4,Deflator index in percent to the previous quarter early data
@@ -15,4 +15,4 @@ http://www.gks.ru/storage/mediabank/ind_okved2(1).xlsx,ind_okved2.xlsx,ind_okved
 https://www.cbr.ru/vfs/statistics/credit_statistics/trade/trade.xls,trade.xls,trade.csv,convert_trade_xls,FALSE,12,Trade statistics
 http://www.gks.ru/bgd/regl/b19_02/IssWWW.exe/Stg/d010/1-06-0.xlsx,1-06-0.xlsx,invest.csv,convert_1_06_0_xlsx,TRUE,4,Fixed capital investment
 ,,exchangerate.csv,parse_exchangerate,TRUE,,Exchange rate from cbr
-"https://gks.ru/storage/mediabank/ind-baza-2018.xlsx,ind_baza_2018.xlsx,ind_baza_2018.csv,convert_ind_baza_2018_xlsx,FALSE,,""Industrial production index, new edition, base year = 2018"""
+https://gks.ru/storage/mediabank/ind-baza-2018.xlsx,ind_baza_2018.xlsx,ind_baza_2018.csv,convert_ind_baza_2018_xlsx,FALSE,,"Industrial production index, new edition, base year = 2018"
